@@ -1,0 +1,20 @@
+home()
+launchApp("See") //微博关注话题签到
+sleep(2000)
+back()
+sleep(500)
+back()
+sleep(500)
+launchApp("See")
+waitForActivity("com.caij.see.ui.activity.home.MainContainActivity")
+sleep(300)
+swipe(10, 1090, 900, 1090, 400)
+sleep(1000)
+click("关注的话题")
+sleep(1000)
+for (let i = 0; i < 3; i++) {
+    click("签到")
+    sleep(900)
+    swipe(550, 2000, 550, 474, 400)
+    sleep(200)
+}

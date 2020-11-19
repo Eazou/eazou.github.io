@@ -1,0 +1,85 @@
+.xfsz {
+  height: 200px;
+  width: 100px;
+  position: fixed;
+  transition: 0.5s;
+  z-index: 9999;
+  opacity: 0;
+  left: 0px;
+  bottom: 0px;
+}
+
+.xfsz:hover {
+  opacity: 1;
+}
+
+.xfsz_an {
+  left: 3vw;
+  bottom: 3vw;
+  background-color: rgb(29, 161, 242);
+  border-radius: 19px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  height: 38px;
+  width: 38px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  z-index: 99999;
+  user-select: none;
+  display: block;
+}
+.xfck {
+  display: none;
+  background: #222;
+  width: 600px;
+  height: 640px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.xfsc {
+  background: #444;
+  right: 20px;
+  border-radius: 35px;
+  margin-bottom: 13px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: solid 5px #444;
+  white-space: nowrap;
+  float: left;
+}
+.xfsc:hover {
+  background: #000;
+  border: solid 5px #000;
+}
+.xfyy {
+  overflow: auto;
+  width: 600px;
+  height: 460px;
+  margin: auto;
+}
+#xf_sr {
+  width: 580px;
+  height: 32px;
+  margin: auto;
+}
+#xf_dc {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.xfgb {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  cursor: pointer;
+  font-size: 50px;
+}
+.xfgb:hover {
+  background: #f00;
+}
